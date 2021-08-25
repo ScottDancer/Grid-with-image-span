@@ -49,13 +49,14 @@ p {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom right;
+  transition: all .6s ease-in;
   /* background-size: auto 100%; */
   /* width: 100vw; */
   /* height: auto; */
 }
 
 .container > div:hover {
-  opacity: 0.7;
+  opacity: .7;
   transform: scale(0.98) ;
 }
 
@@ -67,10 +68,15 @@ p {
 
 .container > div:nth-of-type(6) {
   grid-column: 3 / 5;
+  grid-row: 2 / 4;
+}
+
+.container > div:nth-of-type(7) {
+  grid-row: 3 / 5;
 }
 
 .container > div:nth-of-type(9) {
-  grid-column: 3 / 5;
+  grid-column: 2 / 5;
 }
 
 .container > div:nth-of-type(10) {
